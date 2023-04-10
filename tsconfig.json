@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+        "@shared/*": ["src/core/shared/*"],
+        "@services/*": ["src/core/services/*"],
+        "@models/*": ["src/models/*"],
+        "@constants/*": ["src/core/constants/*"],
+        "@global/*": ["src/core/global/*"],
+        "@guards/*": ["src/core/guards/*"],
+        "@resolvers/*": ["src/core/resolvers/*"],
+        "@layout/*": ["src/core/layout/*"],
+        "@directives/*": ["src/core/directives/*"],
+        "@pipes/*": ["src/core/pipes/*"],
+        "@environments/*": ["src/environments/*"],
+        "@components/*": ["src/components/*"],
+        "@assets/*":["src/assets/*"],
+        "@data/*": ["data/*"],
+      },
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
+}
